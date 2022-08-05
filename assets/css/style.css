@@ -12,11 +12,32 @@ body {
 header {
     padding: 20px 35px;
     background-color: #e2a164;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.header h1 {
+header h1 {
     font-weight: bolder;
     font-size: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+header nav ul li a {
+    padding: 10px 30px;
+    font-size: 1.30vw;
 }
 
 .appetizer {
