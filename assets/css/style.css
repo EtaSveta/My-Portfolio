@@ -55,27 +55,43 @@ header nav ul li a {
     padding: 50px;
 }
 
-.developer img {
-    width: 20%;
-    border-radius: 50px;
-
+.bottom-border {
+    border-bottom: white solid 5px;
+    padding-bottom: 20px;
 }
 
 .ava-img {
     display: flex;
+    flex: 1 5%;
 }
 
-.developer h2 {
+.ava-img img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.flex-row {
     font-size: 38px;
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-around;
+    flex: 3 70%;
 }
 
 .intro {
     background-color: var(--primary-color);
+    padding: 50px;
 }
 
+.intro h2 {
+    font-size: 38px;
+    padding: 20px 0; 
+}
+
+.intro p {
+    line-height: 1.5;
+    font-size: 18px;
+}
 
 
 
@@ -83,7 +99,43 @@ header nav ul li a {
     background-color: var(--secondary-color);
 }
 
+.works h2 {
+    font-size: 38px;
+    text-align: center;
+    padding: 20px 0 35px 0;
+}
+
+.small-work {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 25%;
+}
+
+.small-work img {
+    width: 25%;
+}
 
 .contacts {
     background-color: var(--primary-color);
+    padding: 20px 0;
+}
+
+.contacts h2 {
+    font-size: 38px;
+    text-align: center;
+    padding: 20px 0 35px 0;
+    
+}
+
+.contacts a {
+    color: black;
+}
+
+.contacts ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-size: 1.5vw;
 }
