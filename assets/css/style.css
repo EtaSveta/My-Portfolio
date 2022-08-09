@@ -61,6 +61,11 @@ header nav ul li a {
     padding: 50px;
 }
 
+.title {
+    display: flex;
+    flex: 70%;
+}
+
 .bottom-border {
     border-bottom: white solid 5px;
     padding-bottom: 20px;
@@ -68,12 +73,13 @@ header nav ul li a {
 
 .ava-img {
     display: flex;
-    flex: 1 5%;
+    width: 30%;
 }
 
 .ava-img img {
-    width: 100%;
-    border-radius: 90px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
 }
 
 .flex-row {
@@ -81,7 +87,7 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex: 3 70%;
+    
 }
 
 .intro {
@@ -120,7 +126,7 @@ header nav ul li a {
 
 .works__item {
     position: relative;
-    --bgColor: rgb(18, 219, 255);
+    --bgColor: rgb(5, 5, 5);
     border: 4px solid var(--bgColor);
 }
 
@@ -142,19 +148,23 @@ header nav ul li a {
     left: -4px;
     bottom: 10%;
     padding: 5px;
-    color: black;
+    color: white;
     text-decoration: none;
     background-color: var(--bgColor);
     z-index: 3;
 }
 
+.strong {
+    color: white;
+}
+
 .works__item-bg {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 2;
-    transition: background-color 0.2s linear;
+    
 }
 
 .works__item:hover .works__item-bg {
