@@ -146,6 +146,7 @@ header nav ul li a {
 
 .works__item-img {
     width: 100%;
+    height: fit-content;
 }
 
 .works__item-info {
