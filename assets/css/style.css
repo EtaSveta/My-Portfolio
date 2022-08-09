@@ -38,12 +38,17 @@ header a {
     color: black;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
-    align-items: center;
+    
 }
 
 header nav ul li a {
@@ -199,6 +204,7 @@ header nav ul li a {
     list-style: none;
     align-items: center;
     font-size: 1.5vw;
+    padding-bottom: 30px;
 }
 
 
@@ -218,4 +224,29 @@ header nav ul li a {
     header nav ul li a {
         font-size: 20px;
       }
+}
+
+@media screen and (max-width: 575px) {
+    .ava-img {
+        display: flex;
+        width: 50%;
+    }
+
+    .contacts ul {
+        font-size: 30px;
+        display: block;
+        padding: 10px 10px;
+    }
+
+    .contacts ul li{
+        padding: 10px 10px;
+    }
+
+    header nav ul li{
+        padding: 10px 10px;
+        
+    }
+    header nav ul li a {
+        font-size: 30px;
+    }
 }
