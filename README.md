@@ -3,7 +3,7 @@
 ## Purpose
 To show off my awesome projects for the employer and/or client
 
-##Built with
+## Built with
 
 * HTML
 * CSS
