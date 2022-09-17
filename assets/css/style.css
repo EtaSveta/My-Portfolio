@@ -125,8 +125,14 @@ header nav ul li a {
 .works {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.large-works {
+    display: flex;
     justify-content: center;
-    gap: 30px;
+    margin-bottom: 20px;
 }
 
 .works__item {
@@ -141,23 +147,32 @@ header nav ul li a {
 }
 
 .works__item_first {
-    width: 100%;
+    width: 25%;
 }
 
-.works__item-img {
+.works__item-img, .works__item-img-1 {
     width: 100%;
-    height: fit-content;
+    height: 110px;
 }
 
-.works__item-info {
+.works__item-img-1 {
+    height: 300px;
+}
+
+
+.works__item-info, .works__item-info-1 {
     position: absolute;
     left: -4px;
-    bottom: 10%;
+    bottom: -3%;
     padding: 5px;
     color: white;
     text-decoration: none;
     background-color: var(--bgColor);
     z-index: 3;
+}
+
+.works__item-info-1 {
+    bottom: 0%;
 }
 
 .strong {
